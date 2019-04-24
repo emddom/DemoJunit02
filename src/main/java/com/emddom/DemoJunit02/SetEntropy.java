@@ -1,5 +1,7 @@
 package com.emddom.DemoJunit02;
 
+import com.emddom.DemoJunit02.RandomUtils;
+
 import java.security.NoSuchAlgorithmException;
 //import java.security.SecureRandom;
 //import java.util.logging.Level;
@@ -21,11 +23,14 @@ public class SetEntropy {
 			System.out.println("contains string: windows" );
 		}
 		
-		showDefaultRandomAlgorithm();
+		RandomUtils.createRandomKey();
+// https://www.intertech.com/Blog/a-static-method-should-be-accessed-in-a-static-way/		
+		RandomUtils.showDefaultRandomAlgorithm();
 	
 		
 
 	}
+
 
 	
 }

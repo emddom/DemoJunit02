@@ -2,18 +2,18 @@ package com.emddom.DemoJunit02;
 
 public class Calculator 
 {
-	CalculatorService service;
+//	CalculatorService service;
 	
-	public Calculator(CalculatorService service)
-	{
-		this.service = service;
-	}
+//	public Calculator(CalculatorService service)
+//	{
+//		this.service = service;
+//	}
 			
 	
-	public int perform (int i, int j)
+	public int add (int i, int j)
 	{  
-		return service.add(i, j)*i;
-//		return (i+j)*i;
+//		return service.add(i, j)*i;
+		return (i+j);
 	}
 
 }

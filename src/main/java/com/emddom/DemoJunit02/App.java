@@ -5,7 +5,7 @@ import com.emddom.DemoJunit02.RandomUtils.*;
 
 public class App 
 {
-	Calculator myCalculator = new Calculator() ;
+	static Calculator myCalculator = new Calculator() ;
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
