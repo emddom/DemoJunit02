@@ -1,5 +1,7 @@
 package com.emddom.DemoJunit02;
 
+import java.lang.reflect.Field;
+
 import com.emddom.DemoJunit02.RandomUtils;
 
 import java.security.NoSuchAlgorithmException;
@@ -8,6 +10,7 @@ import java.security.NoSuchAlgorithmException;
 //import java.util.logging.Logger;
 
 //import org.rulez.demokracia.pdengine.RandomUtils;
+
 
 
 public class SetEntropy {
@@ -27,7 +30,8 @@ public class SetEntropy {
 // https://www.intertech.com/Blog/a-static-method-should-be-accessed-in-a-static-way/		
 		RandomUtils.showDefaultRandomAlgorithm();
 	
-		
+//		setStaticValue(final String className, final String fieldName, final Object newValue)
+//		setStaticValue(RandomUtils, final String fieldName, final Object newValue)
 
 	}
 
